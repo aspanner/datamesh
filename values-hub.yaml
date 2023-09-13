@@ -6,15 +6,16 @@ clusterGroup:
     - open-cluster-management
     - vault
     - golang-external-secrets
-    - config-demo
-    - hello-world
-
   subscriptions:
     acm:
       name: advanced-cluster-management
       namespace: open-cluster-management
       channel: release-2.8
       #csv: advanced-cluster-management.v2.6.1
+    lvms:
+     name: lvms-operator
+     namespace: openshift-storage
+     channel: stable-4.13
 
   projects:
     - hub
