@@ -21,7 +21,7 @@ data:
             The secret is <a href="/secret/secret">secret</a>
             </h2>
             <h2>
-            The added datamesh secret is <a href="/secret/example">secret</a>
+            The added datamesh secret is <a href="/secret2/secret">secret</a>
             </h2>
           </body>
       </html>
