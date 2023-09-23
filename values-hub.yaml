@@ -6,6 +6,8 @@ clusterGroup:
     - open-cluster-management
     - vault
     - golang-external-secrets
+    - config-demo
+    - hello-world
   subscriptions:
     acm:
       name: advanced-cluster-management
